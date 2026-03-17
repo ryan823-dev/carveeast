@@ -87,6 +87,18 @@ export function UserMenu({ className }: UserMenuProps) {
 
             {/* Menu Items */}
             <nav className="py-2">
+              {/* Artist Dashboard Link - Only for artist role */}
+              {user.role === 'artist' && (
+                <Link
+                  href="/artist-dashboard"
+                  onClick={() => setIsOpen(false)}
+                  className="flex items-center gap-3 px-4 py-2 text-[#B83A2F] bg-[#F5F4F2] hover:bg-[#E5E4E2] transition-colors font-medium"
+                >
+                  <User className="w-4 h-4" />
+                  <span>Artist Dashboard</span>
+                </Link>
+              )}
+
               <Link
                 href="/profile"
                 onClick={() => setIsOpen(false)}
