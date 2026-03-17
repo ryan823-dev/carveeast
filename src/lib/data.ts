@@ -511,8 +511,8 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/tranquility-seal-1.jpg', alt: 'Tranquility Seal - side view', isPrimary: true, order: 0 },
-      { url: '/images/works/tranquility-seal-2.jpg', alt: 'Tranquility Seal - impression', isPrimary: false, order: 1 },
+      { url: 'https://images.unsplash.com/photo-1610348725531-843dff563e2c?w=800&h=800&fit=crop', alt: 'Tranquility Seal - side view', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1610348725531-843dff563e2c?w=800&h=600&fit=crop', alt: 'Tranquility Seal - impression', isPrimary: false, order: 1 },
     ],
     description: 'A contemplative seal carved from premium Shoushan stone. The characters "静观" (Jìng Guān) mean "Tranquil Observation"—a state of mindful awareness prized in literati culture. The stone exhibits natural veining that the artist incorporated into the design, creating a dialogue between human intention and natural form.',
     culturalContext: 'The concept of "tranquil observation" has deep roots in Chinese philosophy, appearing in Buddhist, Daoist, and Confucian texts. A scholar would use such a seal to mark ownership of books or to sign paintings, making it both a practical tool and a statement of personal values.',
@@ -548,7 +548,7 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/mountain-dream-seal-1.jpg', alt: 'Mountain Dream Seal', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1610348725531-843dff563e2c?w=800&h=800&fit=crop', alt: 'Mountain Dream Seal', isPrimary: true, order: 0 },
     ],
     description: 'This smaller seal captures the essence of mountain retreat—a recurring theme in Chinese art. The characters "山梦" (Shān Mèng) evoke the dreamlike quality of mist-shrouded peaks. The stone is a warm caramel color with natural inclusions that suggest cloud formations.',
     availability: WorkAvailability.AVAILABLE,
@@ -586,9 +586,9 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/moonlit-mountain-teapot-1.jpg', alt: 'Moonlit Mountain Teapot - main view', isPrimary: true, order: 0 },
-      { url: '/images/works/moonlit-mountain-teapot-2.jpg', alt: 'Inscription detail', isPrimary: false, order: 1 },
-      { url: '/images/works/moonlit-mountain-teapot-3.jpg', alt: 'Teapot from above', isPrimary: false, order: 2 },
+      { url: 'https://images.unsplash.com/photo-1578749556920-d1e643848e91?w=800&h=800&fit=crop', alt: 'Moonlit Mountain Teapot - main view', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1516961642265-531546e84af2?w=800&h=800&fit=crop', alt: 'Inscription detail', isPrimary: false, order: 1 },
+      { url: 'https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=800&h=800&fit=crop', alt: 'Teapot from above', isPrimary: false, order: 2 },
     ],
     description: 'A masterful collaboration between ceramic artist Lin Yuqing and calligrapher Chen Zhiting. The teapot form is classic Yixing style with a refined, balanced proportion. The body features a carved landscape depicting mountains under moonlight, with calligraphic inscriptions that complement the imagery. This piece exemplifies the literati ideal of uniting poetry, calligraphy, and craft.',
     culturalContext: 'Collaborative works like this have a long history in Chinese art culture. The teapot serves as a canvas for calligraphic expression, transforming a functional object into a complete artistic statement. Such pieces are highly prized by collectors who appreciate the intersection of multiple art forms.',
@@ -628,7 +628,7 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/bamboo-whisper-set-1.jpg', alt: 'Bamboo Whisper Teacup Set', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1463453091185-61582044d556?w=800&h=800&fit=crop', alt: 'Bamboo Whisper Teacup Set', isPrimary: true, order: 0 },
     ],
     description: 'A set of four teacups, each carved with bamboo motifs and poetic inscriptions. The bamboo symbolizes resilience and integrity in Chinese culture. Each cup bears a different inscription related to the seasons, creating a complete experience when used together.',
     availability: WorkAvailability.AVAILABLE,
@@ -664,8 +664,8 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/wild-cursive-poem-1.jpg', alt: 'Wild Cursive calligraphy scroll', isPrimary: true, order: 0 },
-      { url: '/images/works/wild-cursive-poem-2.jpg', alt: 'Detail of brushwork', isPrimary: false, order: 1 },
+      { url: 'https://images.unsplash.com/photo-1556157382-97eda2d62296?w=800&h=800&fit=crop', alt: 'Wild Cursive calligraphy scroll', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=800&h=800&fit=crop', alt: 'Detail of brushwork', isPrimary: false, order: 1 },
     ],
     description: 'An explosive work in wild cursive script (caoshu), this piece pushes the boundaries of legibility while maintaining the rhythmic energy that defines great calligraphy. The text is a Tang dynasty poem about mountain solitude, but the visual impact transcends the literal meaning—viewers feel the energy of wind through pines even without reading the characters.',
     availability: WorkAvailability.AVAILABLE,
@@ -699,7 +699,7 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/running-script-quotation-1.jpg', alt: 'Running Script album leaf', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1579787934380-4886a2f5469f?w=800&h=800&fit=crop', alt: 'Running Script album leaf', isPrimary: true, order: 0 },
     ],
     description: 'A refined work in running script (xingshu), displaying the elegant flow that bridges regular and cursive scripts. The text is a famous passage from the Zhuangzi about the butterfly dream—a philosophical meditation on reality and illusion. The brushwork is controlled yet spontaneous, demonstrating years of disciplined practice.',
     availability: WorkAvailability.AVAILABLE,
@@ -735,7 +735,7 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/misty-valley-1.jpg', alt: 'Misty Valley painting', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1565624098498-5c12a960f929?w=800&h=800&fit=crop', alt: 'Misty Valley painting', isPrimary: true, order: 0 },
     ],
     description: 'A small-format landscape capturing the essence of mist-shrouded mountains with minimal brushstrokes. The composition draws the eye deep into the valley, where a solitary pavilion suggests human presence within vast nature. The painting includes the artist\'s own seal carving, creating a complete literati statement.',
     availability: WorkAvailability.AVAILABLE,
@@ -772,8 +772,8 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/han-style-seal-1.jpg', alt: 'Han-Style Official Seal', isPrimary: true, order: 0 },
-      { url: '/images/works/han-style-seal-2.jpg', alt: 'Seal impression', isPrimary: false, order: 1 },
+      { url: 'https://images.unsplash.com/photo-1536654098498-a9880a292713?w=800&h=800&fit=crop', alt: 'Han-Style Official Seal', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1561157340-75f2590dc730?w=800&h=800&fit=crop', alt: 'Seal impression', isPrimary: false, order: 1 },
     ],
     description: 'A faithful recreation of Han dynasty official seal style, characterized by bold, squared characters and a sense of imperial authority. The artist has studied hundreds of museum-quality Han seals to perfect the technique. The bronze has been artificially aged to achieve a patina consistent with ancient pieces.',
     culturalContext: 'Han dynasty seals (206 BCE - 220 CE) represent the golden age of Chinese seal carving. Official seals were symbols of bureaucratic authority, and their style influenced all subsequent seal carving. Modern collectors value archaistic works for their historical resonance and technical mastery.',
@@ -810,7 +810,7 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/ink-dream-5-1.jpg', alt: 'Ink Dream No. 5 painting', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=800&h=800&fit=crop', alt: 'Ink Dream No. 5 painting', isPrimary: true, order: 0 },
     ],
     description: 'An abstract composition that evokes the spirit of ink wash painting through the medium of oil. Layers of translucent gray and black suggest mist and water, while gestural marks recall calligraphic brushwork. This piece represents the expansion of CarveEast into contemporary painting while maintaining our focus on Chinese aesthetic principles.',
     availability: WorkAvailability.AVAILABLE,
@@ -847,7 +847,7 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/dragon-phoenix-seal-1.jpg', alt: 'Dragon Phoenix Seal', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1456094865871-e35451a92e38?w=800&h=800&fit=crop', alt: 'Dragon Phoenix Seal', isPrimary: true, order: 0 },
     ],
     description: 'A masterwork carved from premium Tianhuang stone, featuring intricate dragon and phoenix motifs on the sides. The seal face bears an auspicious inscription suitable for a collector\'s personal mark. This piece represents Wang Mingde\'s highest level of craftsmanship.',
     availability: WorkAvailability.AUCTION,
@@ -877,7 +877,7 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/autumn-mountain-scroll-1.jpg', alt: 'Autumn Mountain Scroll', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1518709766631-a6a7f45921c3?w=800&h=800&fit=crop', alt: 'Autumn Mountain Scroll', isPrimary: true, order: 0 },
     ],
     description: 'A handscroll depicting an autumn mountain journey, with travelers crossing a bridge and temples nestled in the peaks. The work demonstrates Zhang Shiyuan\'s mastery of the handscroll format, where the narrative unfolds as the viewer unrolls the painting section by section.',
     availability: WorkAvailability.AUCTION,
@@ -910,7 +910,7 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/four-creatures-seal-1.jpg', alt: 'Four Divine Creatures Seal', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&h=800&fit=crop', alt: 'Four Divine Creatures Seal', isPrimary: true, order: 0 },
     ],
     description: 'A magnificent seal featuring the Four Divine Creatures (Azure Dragon, White Tiger, Vermilion Bird, Black Tortoise) carved in relief on the four sides. The seal face bears a powerful inscription in Han Dynasty style. This work showcases Zhang Haoran\'s mastery of both figural and calligraphic carving.',
     culturalContext: 'The Four Divine Creatures are ancient Chinese cosmological symbols representing the four cardinal directions and four seasons. They have been used in Chinese art since the Han Dynasty as protective emblems.',
@@ -947,7 +947,7 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/spring-dawn-1.jpg', alt: 'Spring Dawn Over Lake', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&h=800&fit=crop', alt: 'Spring Dawn Over Lake', isPrimary: true, order: 0 },
     ],
     description: 'A large hanging scroll depicting a serene lake scene at dawn. Willows frame the composition while distant mountains emerge from morning mist. A lone fisherman in a small boat provides human scale against the vast landscape. The work demonstrates Li Xuefeng\'s mastery of traditional shanshui composition and ink wash techniques.',
     availability: WorkAvailability.AVAILABLE,
@@ -983,7 +983,7 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/heart-sutra-1.jpg', alt: 'Heart Sutra Scroll', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&h=800&fit=crop', alt: 'Heart Sutra Scroll', isPrimary: true, order: 0 },
     ],
     description: 'A complete transcription of the Heart Sutra (Prajnaparamita Hrdaya Sutra) in exquisite small standard script (xiaokai). The 260-character Buddhist text is written with meticulous precision, each character perfectly balanced. This work represents over three months of daily practice and meditation before execution.',
     culturalContext: 'The Heart Sutra is one of the most important Buddhist texts in East Asian Buddhism. Calligraphers have copied it for centuries as both spiritual practice and artistic expression.',
@@ -1020,7 +1020,7 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/blue-white-teapot-1.jpg', alt: 'Blue and White Teapot', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1554188248-986b70e163d4?w=800&h=800&fit=crop', alt: 'Blue and White Teapot', isPrimary: true, order: 0 },
     ],
     description: 'A classic Yixing-style teapot executed in Jingdezhen blue and white porcelain. The body is decorated with delicate plum blossoms, symbolizing resilience and perseverance. The spout and handle are ergonomically designed for comfortable pouring. Includes a poem inscribed on the base.',
     availability: WorkAvailability.AVAILABLE,
@@ -1057,7 +1057,7 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/scholarly-retreat-1.jpg', alt: 'Scholarly Retreat Seal', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1542596594-649edbc13630?w=800&h=800&fit=crop', alt: 'Scholarly Retreat Seal', isPrimary: true, order: 0 },
     ],
     description: 'An elegant seal carved from premium Shoushan furong stone, known for its warm coloration and fine grain. The top features a carved chi-dragon knob. The seal inscription reads "Studio of Literary Gathering" and is executed in the refined Yuan Dynasty style.',
     availability: WorkAvailability.AVAILABLE,
@@ -1094,7 +1094,7 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/scholar-rock-burner-1.jpg', alt: 'Scholar Rock Incense Burner', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=800&fit=crop', alt: 'Scholar Rock Incense Burner', isPrimary: true, order: 0 },
     ],
     description: 'An incense burner shaped like a scholar\'s rock (gongshi), with naturalistic perforations and textured surface. The body is inscribed with a Tang Dynasty poem about mountain retreats. The unglazed zisha clay develops a rich patina with use.',
     culturalContext: 'Scholar rocks have been collected by Chinese literati since the Tang Dynasty as objects of contemplation. They represent the beauty of natural forms and the Taoist ideal of wuwei (non-action).',
@@ -1131,7 +1131,7 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/dao-de-jing-couplets-1.jpg', alt: 'Dao De Jing Couplets', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1516961642265-531546e84af2?w=800&h=800&fit=crop', alt: 'Dao De Jing Couplets', isPrimary: true, order: 0 },
     ],
     description: 'A pair of hanging scrolls featuring excerpts from the Dao De Jing in expressive cursive script (caoshu). The dynamic brushwork captures the spontaneous energy of the Taoist philosophy. These large-format works are suitable for display in a modern interior.',
     availability: WorkAvailability.AVAILABLE,
@@ -1168,7 +1168,7 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/an-jiao-seal-1.jpg', alt: 'Anjiao Shanren Studio Seal', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1533038590840-1cde6e668a91?w=800&h=800&fit=crop', alt: 'Anjiao Shanren Studio Seal', isPrimary: true, order: 0 },
     ],
     description: 'A personal studio seal of the artist, carved in his signature single-stroke style. The four-character inscription "Anjiao Shanren" (Mountain Dweller of An Corner) reflects his artistic identity. The border inscriptions demonstrate his innovative single-stroke regular script technique, developed over three decades of practice.',
     culturalContext: 'Studio seals (斋馆印) are personal seals used by artists and scholars to mark their creative works. They often bear poetic or philosophical names chosen by the artist.',
@@ -1206,7 +1206,7 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/jinshi-founder-seal-1.jpg', alt: 'Jinshi Seal Studio Founder Seal', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1578749556920-d1e643848e91?w=800&h=800&fit=crop', alt: 'Jinshi Seal Studio Founder Seal', isPrimary: true, order: 0 },
     ],
     description: 'This seal commemorates the founding of Jinshi Seal Studio, which has trained hundreds of students in traditional seal carving. The inscription combines classical Han Dynasty style with contemporary design sensibilities. The border features a lengthy inscription describing the studio\'s educational mission.',
     availability: WorkAvailability.AVAILABLE,
@@ -1243,7 +1243,7 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/tranquility-longevity-1.jpg', alt: 'Tranquility and Longevity Seal', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1610348725531-843dff563e2c?w=800&h=800&fit=crop', alt: 'Tranquility and Longevity Seal', isPrimary: true, order: 0 },
     ],
     description: 'A two-character seal bearing the auspicious phrase "Tranquility and Longevity" (静寿). The carving demonstrates the artist\'s deep understanding of Han Dynasty seal aesthetics, with bold, squared characters and balanced composition. The stone is a warm-colored Shoushan furong variety.',
     availability: WorkAvailability.AVAILABLE,
@@ -1279,7 +1279,7 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/single-stroke-couplets-1.jpg', alt: 'Single-Stroke Regular Script Couplets', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1519834785169-98be25ec3f84?w=800&h=800&fit=crop', alt: 'Single-Stroke Regular Script Couplets', isPrimary: true, order: 0 },
     ],
     description: 'A pair of calligraphic couplets executed in the artist\'s signature single-stroke regular script style. This technique, which Jiang developed over decades, creates bold, expressive characters using minimal strokes. The text is a classical couplet about scholarly pursuits and artistic dedication.',
     culturalContext: 'Single-stroke calligraphy (单刀楷) is a technique where each stroke is carved or written in one decisive motion, requiring years of practice to master. Jiang Haoxu\'s single-stroke style has been recognized by Founder Type and released as a digital font.',
@@ -1317,7 +1317,7 @@ export const WORKS: Work[] = [
       unit: 'cm',
     },
     images: [
-      { url: '/images/works/student-practice-set-1.jpg', alt: 'Student Practice Seal Set', isPrimary: true, order: 0 },
+      { url: 'https://images.unsplash.com/photo-1579787934380-4886a2f5469f?w=800&h=800&fit=crop', alt: 'Student Practice Seal Set', isPrimary: true, order: 0 },
     ],
     description: 'A set of six seals created as teaching examples for Jiang\'s students. Each seal demonstrates a different classical style: Han Dynasty, Yuan Dynasty, Ming-Qing literati style, and contemporary interpretations. This set exemplifies the comprehensive approach of Jinshi Seal Studio\'s curriculum.',
     availability: WorkAvailability.AVAILABLE,
