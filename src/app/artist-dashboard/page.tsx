@@ -80,16 +80,6 @@ export default function ArtistDashboardPage() {
     return null;
   }
 
-  const stats = {
-    totalWorks: 23,
-    availableWorks: 18,
-    soldWorks: 5,
-    totalRevenue: 45800,
-    thisMonth: 8200,
-    views: 12450,
-    favorites: 328,
-  };
-
   return (
     <>
       <Header />

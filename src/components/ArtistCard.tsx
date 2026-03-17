@@ -23,7 +23,15 @@ export function ArtistCard({ artist, variant = 'default', className }: ArtistCar
         )}
       >
         <div className="w-16 h-16 rounded-full overflow-hidden bg-[#E5E4E2] shrink-0">
-          <PlaceholderImage text={artist.name.cn?.[0] || artist.name.en[0]} className="w-full h-full" />
+          {artist.portraitImage ? (
+            <img
+              src={artist.portraitImage}
+              alt={artist.name.en}
+              className="w-full h-full object-cover"
+            />
+          ) : (
+            <PlaceholderImage text={artist.name.cn?.[0] || artist.name.en[0]} className="w-full h-full" />
+          )}
         </div>
         <div>
           <h4 className="font-serif text-lg font-medium text-[#1A1A1A] group-hover:text-[#B83A2F] transition-colors">
@@ -47,11 +55,19 @@ export function ArtistCard({ artist, variant = 'default', className }: ArtistCar
         )}
       >
         <div className="aspect-[3/4] overflow-hidden bg-[#E5E4E2] mb-6">
-          <PlaceholderImage
-            text={artist.name.cn?.[0] || artist.name.en[0]}
-            aspectRatio="auto"
-            className="w-full h-full group-hover:scale-105 transition-transform duration-700"
-          />
+          {artist.portraitImage ? (
+            <img
+              src={artist.portraitImage}
+              alt={artist.name.en}
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+            />
+          ) : (
+            <PlaceholderImage
+              text={artist.name.cn?.[0] || artist.name.en[0]}
+              aspectRatio="auto"
+              className="w-full h-full group-hover:scale-105 transition-transform duration-700"
+            />
+          )}
         </div>
         <div className="space-y-2">
           <p className="text-xs uppercase tracking-[0.15em] text-[#B83A2F]">
@@ -81,11 +97,19 @@ export function ArtistCard({ artist, variant = 'default', className }: ArtistCar
       )}
     >
       <div className="aspect-square overflow-hidden bg-[#E5E4E2] mb-4">
-        <PlaceholderImage
-          text={artist.name.cn?.[0] || artist.name.en[0]}
-          aspectRatio="auto"
-          className="w-full h-full group-hover:scale-105 transition-transform duration-700"
-        />
+        {artist.portraitImage ? (
+          <img
+            src={artist.portraitImage}
+            alt={artist.name.en}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+          />
+        ) : (
+          <PlaceholderImage
+            text={artist.name.cn?.[0] || artist.name.en[0]}
+            aspectRatio="auto"
+            className="w-full h-full group-hover:scale-105 transition-transform duration-700"
+          />
+        )}
       </div>
       <div className="space-y-1">
         <p className="text-xs uppercase tracking-[0.15em] text-[#B83A2F]">

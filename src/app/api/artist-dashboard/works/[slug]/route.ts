@@ -4,12 +4,13 @@ import prisma from '@/lib/db';
 // GET /api/artist-dashboard/works/[slug] - Get a specific work
 export async function GET(
   request: NextRequest,
-  { params }: { params: { slug: string } }
+  { params }: { params: Promise<{ slug: string }> }
 ) {
   try {
+    const { slug } = await params;
     const work = await prisma.work.findUnique({
       where: {
-        slug: params.slug,
+        slug,
       },
     });
 
@@ -33,9 +34,10 @@ export async function GET(
 // PUT /api/artist-dashboard/works/[slug] - Update a work
 export async function PUT(
   request: NextRequest,
-  { params }: { params: { slug: string } }
+  { params }: { params: Promise<{ slug: string }> }
 ) {
   try {
+    const { slug } = await params;
     const body = await request.json();
     const {
       title,
@@ -52,7 +54,7 @@ export async function PUT(
 
     const work = await prisma.work.update({
       where: {
-        slug: params.slug,
+        slug,
       },
       data: {
         ...(title && { title }),
@@ -81,12 +83,13 @@ export async function PUT(
 // DELETE /api/artist-dashboard/works/[slug] - Delete a work
 export async function DELETE(
   request: NextRequest,
-  { params }: { params: { slug: string } }
+  { params }: { params: Promise<{ slug: string }> }
 ) {
   try {
+    const { slug } = await params;
     await prisma.work.delete({
       where: {
-        slug: params.slug,
+        slug,
       },
     });
 
