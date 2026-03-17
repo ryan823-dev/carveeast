@@ -2,9 +2,7 @@
 
 ## 🌐 访问信息
 
-**平台网址：** [https://carveeast.uniscore.top](https://carveeast.uniscore.top)
-
-**备用网址：** [https://carveeast.vercel.app](https://carveeast.vercel.app)
+**平台网址：** [https://carveeast.vercel.app](https://carveeast.vercel.app)
 
 ---
 
@@ -56,7 +54,7 @@ CarveEast 是一个专业的当代中国艺术收藏平台，专注于：
 
 ### 1️⃣ 浏览艺术家
 
-**访问：** [https://carveeast.uniscore.top/artists/](https://carveeast.uniscore.top/artists/)
+**访问：** [https://carveeast.vercel.app/artists/](https://carveeast.vercel.app/artists/)
 
 **功能：**
 - 按艺术门类浏览（篆刻、书法、水墨画等）
@@ -65,7 +63,7 @@ CarveEast 是一个专业的当代中国艺术收藏平台，专注于：
 
 ### 2️⃣ 浏览作品
 
-**访问：** [https://carveeast.uniscore.top/works](https://carveeast.uniscore.top/works)
+**访问：** [https://carveeast.vercel.app/works](https://carveeast.vercel.app/works)
 
 **功能：**
 - 按价格区间筛选
@@ -75,7 +73,7 @@ CarveEast 是一个专业的当代中国艺术收藏平台，专注于：
 
 ### 3️⃣ 艺术家后台管理
 
-**访问：** [https://carveeast.uniscore.top/artist-dashboard](https://carveeast.uniscore.top/artist-dashboard)
+**访问：** [https://carveeast.vercel.app/artist-dashboard](https://carveeast.vercel.app/artist-dashboard)
 
 **功能：**
 - **仪表板首页**
@@ -97,7 +95,7 @@ CarveEast 是一个专业的当代中国艺术收藏平台，专注于：
 
 ### 4️⃣ 拍卖功能
 
-**访问：** [https://carveeast.uniscore.top/auctions](https://carveeast.uniscore.top/auctions)
+**访问：** [https://carveeast.vercel.app/auctions](https://carveeast.vercel.app/auctions)
 
 **功能：**
 - 查看正在进行和即将开始的拍卖
@@ -107,7 +105,7 @@ CarveEast 是一个专业的当代中国艺术收藏平台，专注于：
 
 ### 5️⃣ 故事/文章
 
-**访问：** [https://carveeast.uniscore.top/stories](https://carveeast.uniscore.top/stories)
+**访问：** [https://carveeast.vercel.app/stories](https://carveeast.vercel.app/stories)
 
 **功能：**
 - 艺术家访谈
@@ -204,6 +202,4 @@ CarveEast 是一个专业的当代中国艺术收藏平台，专注于：
 
 **最后更新：** 2026 年 3 月 17 日
 
-**版本：** 1.1.0
-
-**域名：** carveeast.uniscore.top
+**版本：** 1.0.0
