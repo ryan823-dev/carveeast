@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarveEast 部署到 Vercel</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #1a1a1a;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        .step {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .step-number {
+            background: #667eea;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        .step-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+        .step-content {
+            color: #4a4a4a;
+            line-height: 1.6;
+            margin-left: 40px;
+        }
+        .btn {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            margin: 20px 0;
+            transition: transform 0.2s;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            background: #5568d3;
+        }
+        .btn-large {
+            display: block;
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .code {
+            background: #1a1a1a;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            margin: 10px 0;
+            overflow-x: auto;
+        }
+        .highlight {
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+        }
+        .checklist {
+            list-style: none;
+            margin: 15px 0;
+        }
+        .checklist li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+        .checklist li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #28a745;
+            font-weight: bold;
+        }
+        .demo-account {
+            background: #e7f3ff;
+            border: 2px solid #2196f3;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .demo-account h3 {
+            color: #1976d2;
+            margin-bottom: 10px;
+        }
+        .demo-account p {
+            color: #424242;
+            line-height: 1.8;
+        }
+        .success {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 CarveEast 部署指南</h1>
+        <p class="subtitle">5 分钟部署你的当代中国艺术收藏平台</p>
+
+        <a href="https://vercel.com/new" target="_blank" class="btn btn-large">
+            点击这里开始部署 →
+        </a>
+
+        <div class="step">
+            <div class="step-title">
+                <span class="step-number">1</span>
+                访问 Vercel 并登录
+            </div>
+            <div class="step-content">
+                <p>点击上方按钮或访问 <a href="https://vercel.com" target="_blank">vercel.com</a></p>
+                <p>使用 GitHub 账号登录（推荐）或注册新账号</p>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-title">
+                <span class="step-number">2</span>
+                导入 GitHub 仓库
+            </div>
+            <div class="step-content">
+                <p>点击 "Add New Project" → "Import Git Repository"</p>
+                <p>选择仓库：<strong>ryan823-dev/carveeast</strong></p>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-title">
+                <span class="step-number">3</span>
+                配置构建选项
+            </div>
+            <div class="step-content">
+                <p>Framework Preset: <strong>Next.js</strong></p>
+                <div class="code">Build Command: prisma generate && next build</div>
+                <div class="code">Output Directory: .next</div>
+                <div class="code">Install Command: npm install</div>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-title">
+                <span class="step-number">4</span>
+                添加环境变量
+            </div>
+            <div class="step-content">
+                <p>点击 "Environment Variables" → "Add New"</p>
+                <div class="code">Key: DATABASE_URL<br>Value: file:./dev.db</div>
+                <div class="highlight">
+                    <strong>⚠️ 重要：</strong>生产环境建议使用 PostgreSQL<br>
+                    可在 Vercel 项目中创建免费的 Vercel Postgres
+                </div>
+            </div>
+        </div>
+
+        <div class="step">
+            <div class="step-title">
+                <span class="step-number">5</span>
+                点击部署
+            </div>
+            <div class="step-content">
+                <p>点击 "Deploy" 按钮，等待 2-5 分钟</p>
+                <p>部署成功后会获得一个 <code>https://xxx.vercel.app</code> 域名</p>
+            </div>
+        </div>
+
+        <div class="success">
+            <h3>🎉 部署完成！</h3>
+            <p>你现在可以：</p>
+            <ul class="checklist">
+                <li>分享网站链接给艺术家和合作伙伴</li>
+                <li>访问艺术家后台管理作品</li>
+                <li>随时绑定自定义域名</li>
+            </ul>
+        </div>
+
+        <div class="demo-account">
+            <h3>🎨 演示账号</h3>
+            <p><strong>艺术家账号（江豪旭）：</strong></p>
+            <p>邮箱：jiang@godseal.com</p>
+            <p>密码：任意密码</p>
+            <p>后台地址：/artist-dashboard</p>
+        </div>
+
+        <div class="warning">
+            <h3>📦 数据库说明</h3>
+            <p>当前配置使用 SQLite，适合演示和本地开发。</p>
+            <p>正式使用建议在 Vercel 创建 PostgreSQL 数据库（免费）：</p>
+            <p>1. 项目设置 → Storage → Create Database</p>
+            <p>2. 复制 CONNECTION_URL</p>
+            <p>3. 更新环境变量 DATABASE_URL</p>
+        </div>
+
+        <a href="https://vercel.com/new" target="_blank" class="btn btn-large">
+            立即开始部署 →
+        </a>
+    </div>
+</body>
+</html>
