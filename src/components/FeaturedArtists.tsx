@@ -35,10 +35,17 @@ export function FeaturedArtists() {
             <div className="lg:col-span-7">
               <Link href={`/artists/${artists[0].slug}`} className="group block">
                 <div className="aspect-[4/5] bg-[#EFEDEA] mb-6 overflow-hidden">
-                  {/* Placeholder for artist portrait */}
-                  <div className="w-full h-full bg-gradient-to-br from-[#E5E4E2] to-[#D5D4D2] flex items-center justify-center group-hover:scale-105 transition-transform duration-700">
-                    <span className="text-[#9A9A98] font-serif text-8xl">{artists[0].name.cn?.[0] || artists[0].name.en[0]}</span>
-                  </div>
+                  {artists[0].portraitImage ? (
+                    <img
+                      src={artists[0].portraitImage}
+                      alt={artists[0].name.en}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                    />
+                  ) : (
+                    <div className="w-full h-full bg-gradient-to-br from-[#E5E4E2] to-[#D5D4D2] flex items-center justify-center group-hover:scale-105 transition-transform duration-700">
+                      <span className="text-[#9A9A98] font-serif text-8xl">{artists[0].name.cn?.[0] || artists[0].name.en[0]}</span>
+                    </div>
+                  )}
                 </div>
                 <div className="space-y-3">
                   <p className="text-xs uppercase tracking-[0.2em] text-[#7A7A78]">
@@ -64,10 +71,17 @@ export function FeaturedArtists() {
                 className="group flex gap-6"
               >
                 <div className="w-32 h-40 bg-[#EFEDEA] flex-shrink-0 overflow-hidden">
-                  {/* Placeholder for artist portrait */}
-                  <div className="w-full h-full bg-gradient-to-br from-[#E5E4E2] to-[#D5D4D2] flex items-center justify-center group-hover:scale-105 transition-transform duration-500">
-                    <span className="text-[#9A9A98] font-serif text-4xl">{artist.name.cn?.[0] || artist.name.en[0]}</span>
-                  </div>
+                  {artist.portraitImage ? (
+                    <img
+                      src={artist.portraitImage}
+                      alt={artist.name.en}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                  ) : (
+                    <div className="w-full h-full bg-gradient-to-br from-[#E5E4E2] to-[#D5D4D2] flex items-center justify-center group-hover:scale-105 transition-transform duration-500">
+                      <span className="text-[#9A9A98] font-serif text-4xl">{artist.name.cn?.[0] || artist.name.en[0]}</span>
+                    </div>
+                  )}
                 </div>
                 <div className="flex flex-col justify-center">
                   <p className="text-xs uppercase tracking-[0.2em] text-[#7A7A78] mb-2">
