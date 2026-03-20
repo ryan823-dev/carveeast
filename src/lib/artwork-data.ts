@@ -62,35 +62,35 @@ export interface ArtworkImage {
 
 // 预定义选项
 export const STONE_MATERIALS = [
-  { value: 'qingtian', label: '青田石', labelEn: 'Qingtian Stone' },
-  { value: 'shoushan', label: '寿山石', labelEn: 'Shoushan Stone' },
-  { value: 'changhua', label: '昌化石', labelEn: 'Changhua Stone' },
-  { value: 'balin', label: '巴林石', labelEn: 'Balin Stone' },
-  { value: 'india_red', label: '印度红', labelEn: 'India Red' },
-  { value: 'laizhou', label: '莱州玉', labelEn: 'Laizhou Jade' },
-  { value: 'hetian', label: '和田玉', labelEn: 'Hetian Jade' },
-  { value: 'jade', label: '翡翠', labelEn: 'Jadeite' },
-  { value: 'other', label: '其他', labelEn: 'Other' },
+  { value: 'qingtian', label: '青田石', labelCn: '青田石', labelEn: 'Qingtian Stone' },
+  { value: 'shoushan', label: '寿山石', labelCn: '寿山石', labelEn: 'Shoushan Stone' },
+  { value: 'changhua', label: '昌化石', labelCn: '昌化石', labelEn: 'Changhua Stone' },
+  { value: 'balin', label: '巴林石', labelCn: '巴林石', labelEn: 'Balin Stone' },
+  { value: 'india_red', label: '印度红', labelCn: '印度红', labelEn: 'India Red' },
+  { value: 'laizhou', label: '莱州玉', labelCn: '莱州玉', labelEn: 'Laizhou Jade' },
+  { value: 'hetian', label: '和田玉', labelCn: '和田玉', labelEn: 'Hetian Jade' },
+  { value: 'jade', label: '翡翠', labelCn: '翡翠', labelEn: 'Jadeite' },
+  { value: 'other', label: '其他', labelCn: '其他', labelEn: 'Other' },
 ] as const;
 
 export const CARVING_STYLES = [
-  { value: 'yishan', label: '黟山派', labelEn: 'Yishan School' },
-  { value: 'zhe', label: '浙派', labelEn: 'Zhe School' },
-  { value: 'wan', label: '皖派', labelEn: 'Wan School' },
-  { value: 'jing', label: '京派', labelEn: 'Jing School' },
-  { value: 'min', label: '闽派', labelEn: 'Min School' },
-  { value: 'lu', label: '鲁派', labelEn: 'Lu School' },
-  { value: 'traditional', label: '传统一路', labelEn: 'Traditional' },
-  { value: 'contemporary', label: '当代一路', labelEn: 'Contemporary' },
+  { value: 'yishan', label: '黟山派', labelCn: '黟山派', labelEn: 'Yishan School' },
+  { value: 'zhe', label: '浙派', labelCn: '浙派', labelEn: 'Zhe School' },
+  { value: 'wan', label: '皖派', labelCn: '皖派', labelEn: 'Wan School' },
+  { value: 'jing', label: '京派', labelCn: '京派', labelEn: 'Jing School' },
+  { value: 'min', label: '闽派', labelCn: '闽派', labelEn: 'Min School' },
+  { value: 'lu', label: '鲁派', labelCn: '鲁派', labelEn: 'Lu School' },
+  { value: 'traditional', label: '传统一路', labelCn: '传统', labelEn: 'Traditional' },
+  { value: 'contemporary', label: '当代一路', labelCn: '当代', labelEn: 'Contemporary' },
 ] as const;
 
 export const SEAL_LAYOUTS = [
-  { value: 'huiwen', label: '回文', labelEn: 'Circular Layout' },
-  { value: 'manbai', label: '满白', labelEn: 'Solid Layout' },
-  { value: 'cuwen', label: '粗文', labelEn: 'Bold Layout' },
-  { value: 'xiwen', label: '细文', labelEn: 'Fine Layout' },
-  { value: 'chouhe', label: '丑荷', labelEn: 'Chouhe' },
-  { value: 'free', label: '自由章法', labelEn: 'Free Layout' },
+  { value: 'huiwen', label: '回文', labelCn: '回文', labelEn: 'Circular Layout' },
+  { value: 'manbai', label: '满白', labelCn: '满白', labelEn: 'Solid Layout' },
+  { value: 'cuwen', label: '粗文', labelCn: '粗文', labelEn: 'Bold Layout' },
+  { value: 'xiwen', label: '细文', labelCn: '细文', labelEn: 'Fine Layout' },
+  { value: 'chouhe', label: '丑荷', labelCn: '丑荷', labelEn: 'Chouhe' },
+  { value: 'free', label: '自由章法', labelCn: '自由', labelEn: 'Free Layout' },
 ] as const;
 
 export const AVAILABILITY_LABELS = {

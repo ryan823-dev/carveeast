@@ -239,22 +239,22 @@ model Follow {
 }
 
 model Inquiry {
-  id          String   @id @default(cuid())
-  userId      String   @map("user_id")
-  workId      String?  @map("work_id")
-  artistId    String?  @map("artist_id")
+  id          String    @id @default(cuid())
+  userId      String?   @map("user_id") // Optional for anonymous inquiries
+  workId      String?   @map("work_id")
+  artistId    String?   @map("artist_id")
   type        String   // purchase, commission, general
   status      String   @default("pending") // pending, responded, closed
   subject     String
   message     String
-  priceOffer  Float?   @map("price_offer") // Changed from Decimal for SQLite compatibility
+  priceOffer  Float?   @map("price_offer")
   response    String?
   respondedAt DateTime? @map("responded_at")
   createdAt   DateTime @default(now()) @map("created_at")
   updatedAt   DateTime @updatedAt @map("updated_at")
 
   // Relations
-  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  user User? @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@map("inquiries")
 }
