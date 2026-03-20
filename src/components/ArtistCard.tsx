@@ -1,126 +1,65 @@
-'use client';
-
 import Link from 'next/link';
+import Image from 'next/image';
 import { Artist } from '@/lib/types';
-import { getDisciplineLabel } from '@/lib/data';
-import { PlaceholderImage } from './PlaceholderImage';
-import { cn } from '@/lib/utils';
 
 interface ArtistCardProps {
   artist: Artist;
-  variant?: 'default' | 'compact' | 'featured';
-  className?: string;
+  variant?: 'default' | 'featured' | 'compact';
 }
 
-export function ArtistCard({ artist, variant = 'default', className }: ArtistCardProps) {
-  if (variant === 'compact') {
-    return (
-      <Link
-        href={`/artists/${artist.slug}`}
-        className={cn(
-          'flex items-center gap-4 group',
-          className
-        )}
-      >
-        <div className="w-16 h-16 rounded-full overflow-hidden bg-[#E5E4E2] shrink-0">
-          {artist.portraitImage ? (
-            <img
-              src={artist.portraitImage}
-              alt={artist.name.en}
-              className="w-full h-full object-cover"
-            />
-          ) : (
-            <PlaceholderImage text={artist.name.cn?.[0] || artist.name.en[0]} className="w-full h-full" />
-          )}
-        </div>
-        <div>
-          <h4 className="font-serif text-lg font-medium text-[#1A1A1A] group-hover:text-[#B83A2F] transition-colors">
-            {artist.name.en}
-          </h4>
-          <p className="text-sm text-[#7A7A78]">
-            {getDisciplineLabel(artist.primaryDiscipline)}
-          </p>
-        </div>
-      </Link>
-    );
-  }
+export function ArtistCard({ artist, variant = 'default' }: ArtistCardProps) {
+  const isFeatured = variant === 'featured';
+  const isCompact = variant === 'compact';
+  const artistName = artist.name.cn || artist.name.en;
 
-  if (variant === 'featured') {
-    return (
-      <Link
-        href={`/artists/${artist.slug}`}
-        className={cn(
-          'group block',
-          className
-        )}
-      >
-        <div className="aspect-[3/4] overflow-hidden bg-[#E5E4E2] mb-6">
-          {artist.portraitImage ? (
-            <img
-              src={artist.portraitImage}
-              alt={artist.name.en}
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-            />
-          ) : (
-            <PlaceholderImage
-              text={artist.name.cn?.[0] || artist.name.en[0]}
-              aspectRatio="auto"
-              className="w-full h-full group-hover:scale-105 transition-transform duration-700"
-            />
-          )}
-        </div>
-        <div className="space-y-2">
-          <p className="text-xs uppercase tracking-[0.15em] text-[#B83A2F]">
-            {getDisciplineLabel(artist.primaryDiscipline)}
-          </p>
-          <h3 className="font-serif text-2xl font-semibold text-[#1A1A1A] group-hover:text-[#B83A2F] transition-colors">
-            {artist.name.en}
-          </h3>
-          <p className="text-[#4A4A48] leading-relaxed line-clamp-2">
-            {artist.shortBio}
-          </p>
-          <p className="text-sm text-[#7A7A78]">
-            {artist.location.city}, {artist.location.country}
-          </p>
-        </div>
-      </Link>
-    );
-  }
-
-  // Default variant
   return (
     <Link
       href={`/artists/${artist.slug}`}
-      className={cn(
-        'group block',
-        className
-      )}
+      className={`group block ${isCompact ? 'flex items-center gap-3' : ''}`}
     >
-      <div className="aspect-square overflow-hidden bg-[#E5E4E2] mb-4">
+      <div
+        className={`relative overflow-hidden rounded-lg ${
+          isFeatured
+            ? 'aspect-[3/4]'
+            : isCompact
+            ? 'w-16 h-16 rounded-full'
+            : 'aspect-square'
+        } bg-stone-100 ${isCompact ? '' : 'mb-3'}`}
+      >
         {artist.portraitImage ? (
-          <img
+          <Image
             src={artist.portraitImage}
             alt={artist.name.en}
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+            fill
+            className={`object-cover transition-transform duration-500 group-hover:scale-105 ${
+              isCompact ? 'rounded-full' : ''
+            }`}
           />
         ) : (
-          <PlaceholderImage
-            text={artist.name.cn?.[0] || artist.name.en[0]}
-            aspectRatio="auto"
-            className="w-full h-full group-hover:scale-105 transition-transform duration-700"
-          />
+          <div className="w-full h-full flex items-center justify-center text-4xl text-stone-300">
+            {artistName.charAt(0)}
+          </div>
+        )}
+        {isFeatured && artist.isFeatured && (
+          <div className="absolute top-3 left-3 bg-amber-600 text-white text-xs px-2 py-1 rounded">
+            Featured
+          </div>
         )}
       </div>
-      <div className="space-y-1">
-        <p className="text-xs uppercase tracking-[0.15em] text-[#B83A2F]">
-          {getDisciplineLabel(artist.primaryDiscipline)}
-        </p>
-        <h3 className="font-serif text-xl font-medium text-[#1A1A1A] group-hover:text-[#B83A2F] transition-colors">
-          {artist.name.en}
+      <div className={isCompact ? 'flex-1 min-w-0' : ''}>
+        <h3 className="font-medium text-stone-900 group-hover:text-amber-700">
+          {artistName}
         </h3>
-        <p className="text-sm text-[#7A7A78]">
-          {artist.location.city}
-        </p>
+        {artist.name.pinyin && (
+          <p className={`text-sm text-stone-500 ${isCompact ? '' : ''}`}>
+            {artist.name.pinyin}
+          </p>
+        )}
+        {isFeatured && (
+          <p className="text-sm text-stone-600 mt-1 line-clamp-2">
+            {artist.shortBio}
+          </p>
+        )}
       </div>
     </Link>
   );

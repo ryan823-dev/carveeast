@@ -1,66 +1,77 @@
-'use client';
-
 import Link from 'next/link';
-import { getFeaturedWorks, formatPrice, getWorkDisplayAuthors } from '@/lib/data';
-import { PlaceholderImage } from './PlaceholderImage';
+import Image from 'next/image';
+import { prisma } from '@/lib/prisma';
+import { formatPrice } from '@/lib/artwork-data';
 
-export function FeaturedWorks() {
-  const works = getFeaturedWorks();
+export async function FeaturedWorks() {
+  // Fetch featured works from database
+  const works = await prisma.work.findMany({
+    where: {
+      isPublished: true,
+    },
+    take: 4,
+    orderBy: {
+      createdAt: 'desc',
+    },
+  });
 
   return (
-    <section className="py-32 bg-[#FAFAF8]">
-      <div className="max-w-[1440px] mx-auto px-6 lg:px-12">
-        {/* Section Header */}
-        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
+    <section className="py-24 bg-stone-50">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
           <div>
-            <p className="text-xs uppercase tracking-[0.3em] text-[#B83A2F] mb-4">
-              Featured Works
-            </p>
-            <h2 className="font-serif text-4xl md:text-5xl font-semibold text-[#1A1A1A] leading-tight">
-              Curator&apos;s Selection
+            <p className="text-xs uppercase tracking-widest text-amber-600 mb-4">Featured</p>
+            <h2 className="font-serif text-4xl md:text-5xl font-semibold text-stone-900">
+              Master Seal Carvings
             </h2>
           </div>
-          <Link
-            href="/works"
-            className="text-sm text-[#4A4A48] hover:text-[#1A1A1A] transition-colors border-b border-[#4A4A48] pb-0.5 hover:border-[#1A1A1A]"
-          >
+          <Link href="/works" className="text-sm text-stone-600 hover:text-stone-900 border-b border-stone-300 hover:border-stone-900 pb-0.5 transition-colors">
             View All Works
           </Link>
         </div>
 
-        {/* Works Grid - Asymmetric Layout */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {works.map((work, index) => (
-            <Link
-              key={work.id}
-              href={`/works/${work.slug}`}
-              className={`group block ${index === 0 ? 'md:col-span-2 lg:col-span-1' : ''}`}
-            >
-              <div className={`bg-[#EFEDEA] mb-6 overflow-hidden ${index === 0 ? 'aspect-[4/5]' : 'aspect-square'}`}>
-                <PlaceholderImage 
-                  text={work.title.cn?.[0] || work.title.en[0]}
-                  className="w-full h-full group-hover:scale-105 transition-transform duration-700"
-                />
-              </div>
-              
-              <div className="space-y-2">
-                <p className="text-xs text-[#7A7A78] uppercase tracking-[0.2em]">
-                  {getWorkDisplayAuthors(work)}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {works.slice(0, 4).map((work, index) => {
+            const images = JSON.parse(work.images || '[]');
+            const primaryImage = images[0];
+
+            return (
+              <Link
+                key={work.id}
+                href={`/works/${work.slug}`}
+                className="group"
+              >
+                <div className="bg-stone-100 mb-4 overflow-hidden rounded-xl aspect-square relative">
+                  {primaryImage ? (
+                    <Image
+                      src={primaryImage.url}
+                      alt={work.titleCn || work.title}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center text-6xl text-stone-300">
+                      印
+                    </div>
+                  )}
+                </div>
+                <p className="text-xs text-stone-500 uppercase tracking-wide mb-1">
+                  {work.artistName}
                 </p>
-                <h3 className="font-serif text-xl font-semibold text-[#1A1A1A] group-hover:text-[#B83A2F] transition-colors">
-                  {work.title.en}
+                <h3 className="font-serif text-lg font-medium text-stone-900 group-hover:text-amber-700 transition-colors">
+                  {work.titleCn || work.title}
                 </h3>
-                <p className="text-sm text-[#4A4A48]">
-                  {work.medium} · {work.year}
+                <p className="text-sm text-stone-500 mt-1">
+                  {(work as any).stoneColor || work.medium} · {work.year}
                 </p>
                 {work.price && (
-                  <p className="font-serif text-lg text-[#1A1A1A] pt-2">
-                    {formatPrice(work.price.amount, work.price.currency)}
+                  <p className="font-semibold text-stone-900 mt-2">
+                    {formatPrice(work.price, work.currency)}
                   </p>
                 )}
-              </div>
-            </Link>
-          ))}
+              </Link>
+            );
+          })}
         </div>
       </div>
     </section>

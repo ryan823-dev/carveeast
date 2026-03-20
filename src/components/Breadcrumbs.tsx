@@ -1,42 +1,30 @@
-'use client';
-
 import Link from 'next/link';
-import { ChevronRight } from 'lucide-react';
-import { cn } from '@/lib/utils';
-
-interface BreadcrumbItem {
-  label: string;
-  href?: string;
-}
 
 interface BreadcrumbsProps {
-  items: BreadcrumbItem[];
+  items: Array<{
+    label: string;
+    href?: string;
+  }>;
   className?: string;
 }
 
-export function Breadcrumbs({ items, className }: BreadcrumbsProps) {
+export function Breadcrumbs({ items, className = '' }: BreadcrumbsProps) {
   return (
-    <nav className={cn('flex items-center gap-2 text-sm', className)}>
-      <Link
-        href="/"
-        className="text-[#7A7A78] hover:text-[#1A1A1A] transition-colors"
-      >
+    <nav className={`flex items-center gap-2 text-sm ${className}`}>
+      <Link href="/" className="text-stone-500 hover:text-stone-900">
         Home
       </Link>
       {items.map((item, index) => (
-        <div key={index} className="flex items-center gap-2">
-          <ChevronRight className="w-4 h-4 text-[#9A9A98]" />
+        <span key={index} className="flex items-center gap-2">
+          <span className="text-stone-300">/</span>
           {item.href ? (
-            <Link
-              href={item.href}
-              className="text-[#7A7A78] hover:text-[#1A1A1A] transition-colors"
-            >
+            <Link href={item.href} className="text-stone-500 hover:text-stone-900">
               {item.label}
             </Link>
           ) : (
-            <span className="text-[#1A1A1A]">{item.label}</span>
+            <span className="text-stone-900">{item.label}</span>
           )}
-        </div>
+        </span>
       ))}
     </nav>
   );
