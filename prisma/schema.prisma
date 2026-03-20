@@ -76,12 +76,27 @@ model Work {
   year         Int
   medium       String
   dimensions   String?
-  price        Float?   // Changed from Decimal for SQLite compatibility
+  weight       String?   // Weight in grams
+  price        Float?
   currency     String   @default("USD")
   availability String   @default("available") // available, sold, reserved, in_auction
   description  String?
-  images       String   @default("[]") // Changed from Json to String for SQLite compatibility
+  descriptionCn String? @map("description_cn")
+  images       String   @default("[]")
   isPublished  Boolean  @default(false) @map("is_published")
+  featured     Boolean  @default(false)
+  tags         String   @default("[]")
+
+  // Seal carving specific fields
+  stoneColor    String?  @map("stone_color") // Stone color: 青色, 黄色, 红色, etc.
+  carvingStyle String?  @map("carving_style") // 黟山派, 浙派, etc.
+  sealStyle    String?  @map("seal_style") // 工整, 写意
+  scriptType   String?  @map("script_type") // 篆书, 隶书, etc.
+  characterCount Int?   @map("character_count")
+  layout       String?  // 回文, 满白, etc.
+  certification String? // Certificate of authenticity
+  provenance    String? // Provenance history
+
   createdAt    DateTime @default(now()) @map("created_at")
   updatedAt    DateTime @updatedAt @map("updated_at")
 
