@@ -3,8 +3,10 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ChevronLeft, ChevronRight, ZoomIn, Heart, Share2, Truck, Shield, MessageCircle, Send, Loader2, CheckCircle, X } from 'lucide-react';
+import { useRouter } from 'next/navigation';
+import { ChevronLeft, ChevronRight, ZoomIn, Heart, Share2, Truck, Shield, MessageCircle, Send, Loader2, CheckCircle, X, ShoppingCart, Check } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { useCart, CartItem } from '@/lib/cart-context';
 import { formatPrice, STONE_MATERIALS, CARVING_STYLES, SEAL_LAYOUTS, AVAILABILITY_LABELS, type ArtworkImage } from '@/lib/artwork-data';
 
 interface WorkDetailProps {
@@ -38,6 +40,8 @@ interface WorkDetailProps {
 }
 
 export default function WorkDetail({ work, relatedWorks = [] }: WorkDetailProps) {
+  const router = useRouter();
+  const { addItem, isInCart } = useCart();
   const [selectedImage, setSelectedImage] = useState(0);
   const [isZoomed, setIsZoomed] = useState(false);
   const [showInquiry, setShowInquiry] = useState(false);
@@ -47,11 +51,52 @@ export default function WorkDetail({ work, relatedWorks = [] }: WorkDetailProps)
   const [formMessage, setFormMessage] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [addedToCart, setAddedToCart] = useState(false);
 
+  const isWorkInCart = isInCart(work.slug);
   const availability = AVAILABILITY_LABELS[work.availability as keyof typeof AVAILABILITY_LABELS] || AVAILABILITY_LABELS.available;
   const stoneMaterial = STONE_MATERIALS.find((m) => m.value === work.medium);
   const carvingStyle = CARVING_STYLES.find((s) => s.value === work.carvingStyle);
   const sealLayout = SEAL_LAYOUTS.find((l) => l.value === work.layout);
+
+  const handleAddToCart = () => {
+    if (!work.price) return;
+    const cartItem: CartItem = {
+      id: work.slug,
+      slug: work.slug,
+      title: work.title,
+      titleCn: work.titleCn,
+      artistName: work.artistName,
+      artistSlug: work.artistSlug,
+      price: work.price,
+      currency: work.currency,
+      image: work.images[0]?.url || '',
+      category: 'seal_carving',
+      type: 'artwork',
+    };
+    addItem(cartItem);
+    setAddedToCart(true);
+    setTimeout(() => setAddedToCart(false), 2000);
+  };
+
+  const handleBuyNow = () => {
+    if (!work.price) return;
+    const cartItem: CartItem = {
+      id: work.slug,
+      slug: work.slug,
+      title: work.title,
+      titleCn: work.titleCn,
+      artistName: work.artistName,
+      artistSlug: work.artistSlug,
+      price: work.price,
+      currency: work.currency,
+      image: work.images[0]?.url || '',
+      category: 'seal_carving',
+      type: 'artwork',
+    };
+    addItem(cartItem);
+    router.push('/checkout');
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -155,7 +200,25 @@ export default function WorkDetail({ work, relatedWorks = [] }: WorkDetailProps)
 
               <div className="flex gap-4">
                 {work.availability === 'available' && work.price && (
-                  <button onClick={() => setShowInquiry(true)} className="flex-1 bg-amber-600 hover:bg-amber-700 text-white py-4 px-6 rounded-xl font-medium">Purchase Now</button>
+                  <>
+                    <button onClick={handleBuyNow} className="flex-1 bg-amber-600 hover:bg-amber-700 text-white py-4 px-6 rounded-xl font-medium flex items-center justify-center gap-2">
+                      Buy Now
+                    </button>
+                    {addedToCart || isWorkInCart ? (
+                      <button disabled className="flex-1 bg-green-600 text-white py-4 px-6 rounded-xl font-medium flex items-center justify-center gap-2">
+                        <Check className="w-5 h-5" />
+                        Added to Cart
+                      </button>
+                    ) : (
+                      <button onClick={handleAddToCart} className="flex-1 bg-white hover:bg-stone-50 text-stone-800 py-4 px-6 rounded-xl font-medium border border-stone-300 flex items-center justify-center gap-2">
+                        <ShoppingCart className="w-5 h-5" />
+                        Add to Cart
+                      </button>
+                    )}
+                  </>
+                )}
+                {!work.price && (
+                  <button onClick={() => setShowInquiry(true)} className="flex-1 bg-amber-600 hover:bg-amber-700 text-white py-4 px-6 rounded-xl font-medium">Inquire for Price</button>
                 )}
                 <button onClick={() => setShowInquiry(true)} className="flex-1 bg-white hover:bg-stone-50 text-stone-800 py-4 px-6 rounded-xl font-medium border border-stone-300">Inquire</button>
                 <button onClick={() => setIsFavorite(!isFavorite)} className={cn('p-4 rounded-xl border', isFavorite ? 'bg-red-50 border-red-200 text-red-600' : 'bg-white border-stone-300 text-stone-600')}>

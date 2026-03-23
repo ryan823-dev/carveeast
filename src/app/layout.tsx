@@ -8,6 +8,7 @@ import { ServiceWorkerRegistration } from "@/components/ServiceWorkerRegistratio
 import { Analytics } from "@/components/Analytics";
 import { AnalyticsTracker } from "@/components/AnalyticsTracker";
 import { OrganizationStructuredData, WebSiteStructuredData } from "@/components/StructuredData";
+import { CartProvider } from "@/lib/cart-context";
 
 const playfairDisplay = Playfair_Display({
   variable: "--font-playfair",
@@ -79,7 +80,9 @@ export default function RootLayout({
           fontFamily: '"Inter", system-ui, sans-serif',
         }}
       >
-        {children}
+        <CartProvider>
+          {children}
+        </CartProvider>
         <PerformanceMonitor />
         <FeedbackWidget />
         <ServiceWorkerRegistration />
