@@ -1,0 +1,2136 @@
+{
+  "artist": {
+    "id": "artist-11",
+    "name": "江豪旭",
+    "slug": "jiang-haoxu"
+  },
+  "statistics": {
+    "total": 65,
+    "withImages": 28,
+    "withVideos": 51,
+    "withBoth": 15
+  },
+  "works": [
+    {
+      "id": "work-jhx-001",
+      "slug": "jiang-haoxu-yi-qie-yin-she-wu-neng-jia-ru",
+      "title": "一切印社无能加入",
+      "titleCn": "一切印社无能加入",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 3000,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "一切印社无能加入，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [
+        "/images/works/jiang-haoxu/一切印社无能加入/27-1.png",
+        "/images/works/jiang-haoxu/一切印社无能加入/27-2.png"
+      ],
+      "videos": [
+        "/videos/works/jiang-haoxu/一切印社无能加入/视频.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/一切印社无能加入/2 竖版封面.png"
+      ],
+      "hasImage": true,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": true,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-002",
+      "slug": "jiang-haoxu-he-yao-fu-ming",
+      "title": "何要浮名",
+      "titleCn": "何要浮名",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 2800,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "何要浮名，语出辛弃疾词句，表达淡泊名利的人生态度。此印刀法利落，布局疏朗有致。",
+      "images": [
+        "/images/works/jiang-haoxu/何要浮名/7-1.png",
+        "/images/works/jiang-haoxu/何要浮名/7-2.png"
+      ],
+      "videos": [
+        "/videos/works/jiang-haoxu/何要浮名/2月18日 (1)-何要浮名.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/何要浮名/何要浮名.png",
+        "/videos/works/jiang-haoxu/何要浮名/何要浮名1.jpg",
+        "/videos/works/jiang-haoxu/何要浮名/何要浮名1.png",
+        "/videos/works/jiang-haoxu/何要浮名/何要浮名2.png",
+        "/videos/works/jiang-haoxu/何要浮名/何要浮名3.png",
+        "/videos/works/jiang-haoxu/何要浮名/封面.jpg"
+      ],
+      "hasImage": true,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": true,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-003",
+      "slug": "jiang-haoxu-yang-zheng-qi",
+      "title": "养正气",
+      "titleCn": "养正气",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 2200,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "语出《孟子》\"吾善养吾浩然之气\"，修身励志之作。",
+      "images": [
+        "/images/works/jiang-haoxu/养正气/26.png"
+      ],
+      "videos": [
+        "/videos/works/jiang-haoxu/养正气/养正气2.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/养正气/1 横版封面.png"
+      ],
+      "hasImage": true,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": true,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-004",
+      "slug": "jiang-haoxu-qian-he-wan-du",
+      "title": "千河晚渡",
+      "titleCn": "千河晚渡",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 2600,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "诗意印，展现黄河晚渡的意境。",
+      "images": [
+        "/images/works/jiang-haoxu/千河晚渡/17.png"
+      ],
+      "videos": [
+        "/videos/works/jiang-haoxu/千河晚渡/千河晚渡.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/千河晚渡/千河晚渡.png"
+      ],
+      "hasImage": true,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": true,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-005",
+      "slug": "jiang-haoxu-qian-li-zhi-xing-shi-yu-zu-xia",
+      "title": "千里之行始于足下",
+      "titleCn": "千里之行始于足下",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "千里之行始于足下，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [
+        "/images/works/jiang-haoxu/千里之行始于足下/18.png"
+      ],
+      "videos": [],
+      "videoCovers": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "isPublished": true,
+      "featured": true,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-006",
+      "slug": "jiang-haoxu-zhi-you-xiang-ru-gu",
+      "title": "只有香如故",
+      "titleCn": "只有香如故",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 2000,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "只有香如故，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [
+        "/images/works/jiang-haoxu/只有香如故/28.png"
+      ],
+      "videos": [
+        "/videos/works/jiang-haoxu/只有香如故/20240123 只有香如故.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/只有香如故/只有香如故1.jpg",
+        "/videos/works/jiang-haoxu/只有香如故/只有香如故2.jpg"
+      ],
+      "hasImage": true,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": true,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-007",
+      "slug": "jiang-haoxu-ting-yu",
+      "title": "听雨",
+      "titleCn": "听雨",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "听雨，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [
+        "/images/works/jiang-haoxu/听雨/24.png"
+      ],
+      "videos": [],
+      "videoCovers": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "isPublished": true,
+      "featured": true,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-008",
+      "slug": "jiang-haoxu-mo-qu",
+      "title": "墨趣",
+      "titleCn": "墨趣",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "墨趣，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [
+        "/images/works/jiang-haoxu/墨趣/15.png"
+      ],
+      "videos": [
+        "/videos/works/jiang-haoxu/墨趣/墨趣-视频.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/墨趣/2 竖版封面.png"
+      ],
+      "hasImage": true,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": true,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-009",
+      "slug": "jiang-haoxu-tian-ming-zhi-wei-xing",
+      "title": "天命之谓性",
+      "titleCn": "天命之谓性",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 2500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "天命之谓性，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [
+        "/images/works/jiang-haoxu/天命之谓性/23.png"
+      ],
+      "videos": [
+        "/videos/works/jiang-haoxu/天命之谓性/视频.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/天命之谓性/2 竖版封面.png"
+      ],
+      "hasImage": true,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": true,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-010",
+      "slug": "jiang-haoxu-ru-zi-niu",
+      "title": "孺子牛",
+      "titleCn": "孺子牛",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "孺子牛，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [
+        "/images/works/jiang-haoxu/孺子牛/19.png"
+      ],
+      "videos": [],
+      "videoCovers": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "isPublished": true,
+      "featured": true,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-011",
+      "slug": "jiang-haoxu-shan-se-you-wu-zhong",
+      "title": "山色有无中",
+      "titleCn": "山色有无中",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 2000,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "山色有无中，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [
+        "/images/works/jiang-haoxu/山色有无中/20-2.png",
+        "/images/works/jiang-haoxu/山色有无中/20.png"
+      ],
+      "videos": [
+        "/videos/works/jiang-haoxu/山色有无中/山色有无中2.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/山色有无中/1 横版封面.png"
+      ],
+      "hasImage": true,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-012",
+      "slug": "jiang-haoxu-cuizi-yu-zuoyou-ming",
+      "title": "崔子玉座右铭",
+      "titleCn": "崔子玉座右铭",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 4500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "以东汉崔瑗《座右铭》为内容，展现书法与篆刻的结合。",
+      "images": [
+        "/images/works/jiang-haoxu/崔子玉座右铭/5-1.png",
+        "/images/works/jiang-haoxu/崔子玉座右铭/5-2.png"
+      ],
+      "videos": [
+        "/videos/works/jiang-haoxu/崔子玉座右铭组印/崔子玉座右铭.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/崔子玉座右铭组印/1 横版封面.png"
+      ],
+      "hasImage": true,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-013",
+      "slug": "jiang-haoxu-shi-zhu-xuan",
+      "title": "师竹轩",
+      "titleCn": "师竹轩",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1800,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "师竹轩，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [
+        "/images/works/jiang-haoxu/师竹轩/21.png"
+      ],
+      "videos": [
+        "/videos/works/jiang-haoxu/师竹轩/篆刻三方.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/师竹轩/1 横版封面.png"
+      ],
+      "hasImage": true,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-014",
+      "slug": "jiang-haoxu-anjiao-shanren",
+      "title": "庵角山人",
+      "titleCn": "庵角山人",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 2200,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "艺术家号\"庵角山人\"，此为自用斋馆印。",
+      "images": [
+        "/images/works/jiang-haoxu/庵角山人-朱文1/1.png",
+        "/images/works/jiang-haoxu/庵角山人-朱文2/2.png"
+      ],
+      "videos": [],
+      "videoCovers": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-015",
+      "slug": "jiang-haoxu-nian-xu-yi-xiao",
+      "title": "捻须一笑",
+      "titleCn": "捻须一笑",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "捻须一笑，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [
+        "/images/works/jiang-haoxu/捻须一笑/16.png"
+      ],
+      "videos": [],
+      "videoCovers": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-016",
+      "slug": "jiang-haoxu-ming-xin-jian-xing",
+      "title": "明心见性",
+      "titleCn": "明心见性",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "明心见性，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [
+        "/images/works/jiang-haoxu/明心见性/14.png"
+      ],
+      "videos": [],
+      "videoCovers": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-017",
+      "slug": "jiang-haoxu-ci-xin-guang-ming",
+      "title": "此心光明",
+      "titleCn": "此心光明",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "此心光明，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [
+        "/images/works/jiang-haoxu/此心光明/4-1.png",
+        "/images/works/jiang-haoxu/此心光明/4-2.png"
+      ],
+      "videos": [],
+      "videoCovers": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-018",
+      "slug": "jiang-haoxu-jiang-shan-ru-ci-duo-jiao",
+      "title": "江山如此多娇",
+      "titleCn": "江山如此多娇",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "江山如此多娇，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [
+        "/images/works/jiang-haoxu/江山如此多娇/10.png"
+      ],
+      "videos": [],
+      "videoCovers": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-019",
+      "slug": "jiang-haoxu-jiang-haoxu-yin",
+      "title": "江豪旭印",
+      "titleCn": "江豪旭印",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 3500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "艺术家自用印，白文风格，展现古朴劲拙的个人风格。",
+      "images": [
+        "/images/works/jiang-haoxu/江豪旭印-白文/8.png"
+      ],
+      "videos": [
+        "/videos/works/jiang-haoxu/江豪旭印/江豪旭印.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/江豪旭印/1 横版封面.png"
+      ],
+      "hasImage": true,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-020",
+      "slug": "jiang-haoxu-jiang-lang-cai-wei-jin",
+      "title": "江郎才未尽",
+      "titleCn": "江郎才未尽",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 2200,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "江郎才未尽，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [
+        "/images/works/jiang-haoxu/江郎才未尽/9-1.png",
+        "/images/works/jiang-haoxu/江郎才未尽/9-2.png"
+      ],
+      "videos": [
+        "/videos/works/jiang-haoxu/江郎才未尽/视频.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/江郎才未尽/2 竖版封面.png"
+      ],
+      "hasImage": true,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-021",
+      "slug": "jiang-haoxu-mei-chu-xi",
+      "title": "没出息",
+      "titleCn": "没出息",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1800,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "没出息，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [
+        "/images/works/jiang-haoxu/没出息/12-1.png",
+        "/images/works/jiang-haoxu/没出息/12-2.png"
+      ],
+      "videos": [
+        "/videos/works/jiang-haoxu/没出息/视频.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/没出息/2 竖版封面.png"
+      ],
+      "hasImage": true,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-022",
+      "slug": "jiang-haoxu-mei-yi-yan-nian",
+      "title": "美意延年",
+      "titleCn": "美意延年",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "美意延年，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [
+        "/images/works/jiang-haoxu/美意延年/13-1.png",
+        "/images/works/jiang-haoxu/美意延年/13-2.png"
+      ],
+      "videos": [],
+      "videoCovers": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-023",
+      "slug": "jiang-haoxu-jie-tang",
+      "title": "芥堂",
+      "titleCn": "芥堂",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 2000,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "芥堂，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [
+        "/images/works/jiang-haoxu/芥堂/11-1.png",
+        "/images/works/jiang-haoxu/芥堂/11-2.png"
+      ],
+      "videos": [
+        "/videos/works/jiang-haoxu/芥堂/视频.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/芥堂/2 竖版封面.png"
+      ],
+      "hasImage": true,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-024",
+      "slug": "jiang-haoxu-shi-hua",
+      "title": "蒔花",
+      "titleCn": "蒔花",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "蒔花，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [
+        "/images/works/jiang-haoxu/蒔花/22.png"
+      ],
+      "videos": [],
+      "videoCovers": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-025",
+      "slug": "jiang-haoxu-guan-miao-lou",
+      "title": "观妙楼",
+      "titleCn": "观妙楼",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "观妙楼，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [
+        "/images/works/jiang-haoxu/观妙楼/6.png"
+      ],
+      "videos": [],
+      "videoCovers": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-026",
+      "slug": "jiang-haoxu-ba-hu-jiang-jun",
+      "title": "跋扈将军",
+      "titleCn": "跋扈将军",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "跋扈将军，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [
+        "/images/works/jiang-haoxu/跋扈将军/3-2.png",
+        "/images/works/jiang-haoxu/跋扈将军/3.png"
+      ],
+      "videos": [],
+      "videoCovers": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-027",
+      "slug": "jiang-haoxu-zhuo-jiu",
+      "title": "酌酒",
+      "titleCn": "酌酒",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "酌酒，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [
+        "/images/works/jiang-haoxu/酌酒/29-1.png",
+        "/images/works/jiang-haoxu/酌酒/29-2.png"
+      ],
+      "videos": [],
+      "videoCovers": [],
+      "hasImage": true,
+      "hasVideo": false,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-028",
+      "slug": "jiang-haoxu-xian-yun-ye-he",
+      "title": "闲云野鹤",
+      "titleCn": "闲云野鹤",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 2400,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "四字吉语印，表达超然物外的生活态度。",
+      "images": [
+        "/images/works/jiang-haoxu/闲云野鹤/25.png"
+      ],
+      "videos": [
+        "/videos/works/jiang-haoxu/闲云野鹤/2月19日 (1)闲云野鹤.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/闲云野鹤/横版封面.jpg",
+        "/videos/works/jiang-haoxu/闲云野鹤/闲云野鹤1.png"
+      ],
+      "hasImage": true,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-029",
+      "slug": "jiang-haoxu-人书未老",
+      "title": "人书未老",
+      "titleCn": "人书未老",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "人书未老，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/人书未老/人书未老.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/人书未老/1 横版封面.png",
+        "/videos/works/jiang-haoxu/人书未老/1 横版封面2.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-030",
+      "slug": "jiang-haoxu-人间惆怅客",
+      "title": "人间惆怅客",
+      "titleCn": "人间惆怅客",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "人间惆怅客，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/人间惆怅客/视频.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/人间惆怅客/2 竖版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-031",
+      "slug": "jiang-haoxu-出门一笑大江横",
+      "title": "出门一笑大江横",
+      "titleCn": "出门一笑大江横",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "出门一笑大江横，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/出门一笑大江横/3月27日 (2).mp4",
+        "/videos/works/jiang-haoxu/出门一笑大江横/出门一笑大江横.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/出门一笑大江横/出门一笑大江横.jpg",
+        "/videos/works/jiang-haoxu/出门一笑大江横/出门一笑大江横1.jpg"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-032",
+      "slug": "jiang-haoxu-刘岳兵印",
+      "title": "刘岳兵印",
+      "titleCn": "刘岳兵印",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "刘岳兵印，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/刘岳兵印/视频2.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/刘岳兵印/2 竖版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-033",
+      "slug": "jiang-haoxu-刻印乞米",
+      "title": "刻印乞米",
+      "titleCn": "刻印乞米",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "刻印乞米，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/刻印乞米/刻印乞米.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/刻印乞米/1 横版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-034",
+      "slug": "jiang-haoxu-剑胆琴心",
+      "title": "剑胆琴心",
+      "titleCn": "剑胆琴心",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "剑胆琴心，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/剑胆琴心/20230123 剑胆琴心.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/剑胆琴心/剑胆琴心.jpg",
+        "/videos/works/jiang-haoxu/剑胆琴心/剑胆琴心2.jpg"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-035",
+      "slug": "jiang-haoxu-印从书出",
+      "title": "印从书出",
+      "titleCn": "印从书出",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "印从书出，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/印从书出/视频.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/印从书出/2 竖版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-036",
+      "slug": "jiang-haoxu-印奴",
+      "title": "印奴",
+      "titleCn": "印奴",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "印奴，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/印奴/印奴0214.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/印奴/QQ图片20240211090418.jpg",
+        "/videos/works/jiang-haoxu/印奴/印奴-庵角.png",
+        "/videos/works/jiang-haoxu/印奴/印奴-赵之谦刻.png",
+        "/videos/works/jiang-haoxu/印奴/印奴-赵叔孺.png",
+        "/videos/works/jiang-haoxu/印奴/横版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-037",
+      "slug": "jiang-haoxu-古欢",
+      "title": "古欢",
+      "titleCn": "古欢",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "古欢，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/古欢/古欢.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/古欢/2 竖版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-038",
+      "slug": "jiang-haoxu-史铭",
+      "title": "史铭",
+      "titleCn": "史铭",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "史铭，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/史铭/史铭.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/史铭/封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-039",
+      "slug": "jiang-haoxu-君子九雅组印",
+      "title": "君子九雅组印",
+      "titleCn": "君子九雅组印",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "君子九雅组印，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/君子九雅组印/君子九雅组印.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/君子九雅组印/横版封面.jpg",
+        "/videos/works/jiang-haoxu/君子九雅组印/横版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-040",
+      "slug": "jiang-haoxu-左国臻印",
+      "title": "左国臻印",
+      "titleCn": "左国臻印",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "左国臻印，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/左国臻印/视频.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/左国臻印/2 竖版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-041",
+      "slug": "jiang-haoxu-平实居",
+      "title": "平实居",
+      "titleCn": "平实居",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "平实居，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/平实居/平实居.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/平实居/2 竖版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-042",
+      "slug": "jiang-haoxu-心不贪荣身不辱",
+      "title": "心不贪荣身不辱",
+      "titleCn": "心不贪荣身不辱",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "心不贪荣身不辱，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/心不贪荣身不辱/心不贪荣.jpg"
+      ],
+      "hasImage": false,
+      "hasVideo": false,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-043",
+      "slug": "jiang-haoxu-志诚过眼",
+      "title": "志诚过眼",
+      "titleCn": "志诚过眼",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "志诚过眼，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/志诚过眼/视频.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/志诚过眼/封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-044",
+      "slug": "jiang-haoxu-扫地参禅",
+      "title": "扫地参禅",
+      "titleCn": "扫地参禅",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "扫地参禅，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/扫地参禅/视频.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/扫地参禅/2 竖版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-045",
+      "slug": "jiang-haoxu-更上一层楼",
+      "title": "更上一层楼",
+      "titleCn": "更上一层楼",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "更上一层楼，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/更上一层楼/2月28日-更上一层楼2.mp4",
+        "/videos/works/jiang-haoxu/更上一层楼/更上一层楼 无水印.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/更上一层楼/横版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-046",
+      "slug": "jiang-haoxu-松风斋",
+      "title": "松风斋",
+      "titleCn": "松风斋",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "松风斋，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/曾嵘 松风斋/视频.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/曾嵘 松风斋/2 竖版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-047",
+      "slug": "jiang-haoxu-有恒",
+      "title": "有恒",
+      "titleCn": "有恒",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "有恒，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/有恒/有恒 短版.mp4",
+        "/videos/works/jiang-haoxu/有恒/有恒4.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/有恒/1 横版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-048",
+      "slug": "jiang-haoxu-梅花知己",
+      "title": "梅花知己",
+      "titleCn": "梅花知己",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "梅花知己，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/梅花知己/梅花知己-5.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/梅花知己/2.png",
+        "/videos/works/jiang-haoxu/梅花知己/印奴模板.png",
+        "/videos/works/jiang-haoxu/梅花知己/横版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-049",
+      "slug": "jiang-haoxu-永受嘉福-竹根",
+      "title": "永受嘉福-竹根",
+      "titleCn": "永受嘉福-竹根",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "永受嘉福-竹根，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/永受嘉福-竹根/永受嘉福.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/永受嘉福-竹根/2 竖版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-050",
+      "slug": "jiang-haoxu-汤泓",
+      "title": "汤泓",
+      "titleCn": "汤泓",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "汤泓，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/汤泓/3月13日 (1)(1).mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/汤泓/1 横版封面.png",
+        "/videos/works/jiang-haoxu/汤泓/2横版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-051",
+      "slug": "jiang-haoxu-活在当下",
+      "title": "活在当下",
+      "titleCn": "活在当下",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "活在当下，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/活在当下/视频2.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/活在当下/2 竖版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-052",
+      "slug": "jiang-haoxu-浮生半日闲",
+      "title": "浮生半日闲",
+      "titleCn": "浮生半日闲",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "浮生半日闲，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/浮生半日闲/20240114-浮生半日闲.mp4",
+        "/videos/works/jiang-haoxu/浮生半日闲/浮生半日闲.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/浮生半日闲/浮生半日闲.jpg",
+        "/videos/works/jiang-haoxu/浮生半日闲/浮生半日闲2.jpg",
+        "/videos/works/jiang-haoxu/浮生半日闲/浮生半日闲23.jpg"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-053",
+      "slug": "jiang-haoxu-王利斌印",
+      "title": "王利斌印",
+      "titleCn": "王利斌印",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "王利斌印，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/王利斌印/视频.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/王利斌印/2 竖版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-054",
+      "slug": "jiang-haoxu-王娟印信",
+      "title": "王娟印信",
+      "titleCn": "王娟印信",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "王娟印信，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/王娟印信/王娟印信3.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/王娟印信/2 竖版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-055",
+      "slug": "jiang-haoxu-程秦超印",
+      "title": "程秦超印",
+      "titleCn": "程秦超印",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "程秦超印，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/程秦超印/程秦超印.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/程秦超印/1 横版封面.png",
+        "/videos/works/jiang-haoxu/程秦超印/2.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-056",
+      "slug": "jiang-haoxu-紫云居士",
+      "title": "紫云居士",
+      "titleCn": "紫云居士",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "紫云居士，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/紫云居士/4月8日.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/紫云居士/1 横版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-057",
+      "slug": "jiang-haoxu-花香蝶自来",
+      "title": "花香蝶自来",
+      "titleCn": "花香蝶自来",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "花香蝶自来，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/花香蝶自来/视频.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/花香蝶自来/2 竖版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-058",
+      "slug": "jiang-haoxu-苏海强",
+      "title": "苏海强",
+      "titleCn": "苏海强",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "苏海强，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/苏海强/视频.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/苏海强/2 竖版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-059",
+      "slug": "jiang-haoxu-豩盦",
+      "title": "豩盦",
+      "titleCn": "豩盦",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "豩盦，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/豩盦/豩盫.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/豩盦/1 横版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-060",
+      "slug": "jiang-haoxu-道不远人",
+      "title": "道不远人",
+      "titleCn": "道不远人",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "道不远人，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/道不远人/道不远人.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/道不远人/2 竖版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-061",
+      "slug": "jiang-haoxu-郑志诚",
+      "title": "郑志诚",
+      "titleCn": "郑志诚",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "郑志诚，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/郑志诚/视频.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/郑志诚/封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-062",
+      "slug": "jiang-haoxu-长相思",
+      "title": "长相思",
+      "titleCn": "长相思",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "长相思，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/长相思/10月9日.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/长相思/1 横版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-063",
+      "slug": "jiang-haoxu-雪泥鸿爪",
+      "title": "雪泥鸿爪",
+      "titleCn": "雪泥鸿爪",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "雪泥鸿爪，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/雪泥鸿爪/雪泥鸿爪.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/雪泥鸿爪/雪泥鸿爪1.jpg",
+        "/videos/works/jiang-haoxu/雪泥鸿爪/雪泥鸿爪2.jpg"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-064",
+      "slug": "jiang-haoxu-饮马长城",
+      "title": "饮马长城",
+      "titleCn": "饮马长城",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "饮马长城，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/饮马长城/视频.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/饮马长城/饮马长城1.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    },
+    {
+      "id": "work-jhx-065",
+      "slug": "jiang-haoxu-马到成功",
+      "title": "马到成功",
+      "titleCn": "马到成功",
+      "artistId": "artist-11",
+      "artistName": "江豪旭",
+      "year": 2023,
+      "medium": "寿山石/青田石篆刻",
+      "dimensions": "约3×3cm",
+      "price": 1500,
+      "currency": "CNY",
+      "availability": "available",
+      "description": "马到成功，江豪旭（庵角山人）篆刻作品，展现其古朴劲拙的个人风格。",
+      "images": [],
+      "videos": [
+        "/videos/works/jiang-haoxu/马到成功/视频.mp4"
+      ],
+      "videoCovers": [
+        "/videos/works/jiang-haoxu/马到成功/2 竖版封面.png"
+      ],
+      "hasImage": false,
+      "hasVideo": true,
+      "isPublished": true,
+      "featured": false,
+      "tags": [
+        "篆刻",
+        "江豪旭",
+        "庵角山人",
+        "金石印坊"
+      ]
+    }
+  ],
+  "generatedAt": "2026-03-23T08:51:43.504Z"
+}

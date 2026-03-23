@@ -158,6 +158,12 @@ export interface Work {
     isPrimary: boolean;
     order: number;
   }[];
+  videos?: {
+    url: string;
+    cover?: string;
+    title?: string;
+    duration?: number;
+  }[];
   description: string;
   culturalContext?: string;
   inscription?: {
